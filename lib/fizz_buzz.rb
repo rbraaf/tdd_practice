@@ -13,5 +13,5 @@ class Fixnum
 end
 
 (1..100).each do |n|
-  puts n.to_fizzbuzz
+  p n.to_fizzbuzz
 end

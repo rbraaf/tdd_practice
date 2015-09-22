@@ -1,7 +1,7 @@
 require 'fizz_buzz'
 
 RSpec.describe Fixnum do
-  context "#to_fizzbuzz" do
+  describe "#to_fizzbuzz" do
     it "returns self when not divisible by 3 or 5" do
       expect(1.to_fizzbuzz).to eq(1)
       expect(2.to_fizzbuzz).to eq(2)
